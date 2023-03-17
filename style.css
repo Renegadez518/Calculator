@@ -57,4 +57,8 @@
     border-radius: 0;
     box-shadow: none;
   }
-  
+  body{
+    background-image: url("min02.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
