@@ -1,8 +1,8 @@
 function addToResult(value) {
-	document.getElementById("result").value += value;
+	document.getElementById("display").value += value;
 }
 
 function calculateResult() {
-	var result = eval(document.getElementById("result").value);
-	document.getElementById("result").value = result;
+	var result = eval(document.getElementById("display").value);
+	document.getElementById("display").value = result;
 }
